@@ -1,0 +1,11 @@
+name = Library Feeds Database Importer
+description = Mappings and config for importing D5 nodes
+core = 7.x
+package = Features
+version = 7.x-1.0-beta1
+project = library_feeds_database_importer
+dependencies[] = ctools
+dependencies[] = feeds
+features[ctools][] = feeds:feeds_importer_default:1
+features[features_api][] = api:1
+features[feeds_importer][] = library_database

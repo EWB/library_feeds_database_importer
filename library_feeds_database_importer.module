@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Library Feeds Database Importer feature.
+ */
+
+include_once 'library_feeds_database_importer.features.inc';
