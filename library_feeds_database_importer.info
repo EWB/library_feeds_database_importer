@@ -2,6 +2,7 @@ name = Library Feeds Database Importer
 description = Mappings and config for importing D5 nodes
 core = 7.x
 package = Features
+php = 5.2.4
 version = 7.x-1.0-beta1
 project = library_feeds_database_importer
 dependencies[] = ctools

@@ -68,6 +68,16 @@ function library_feeds_database_importer_feeds_importer_default() {
             'target' => 'field_database_coverage:start',
             'unique' => FALSE,
           ),
+          6 => array(
+            'source' => 'Taxonomy: Terms for Department or Program',
+            'target' => 'field_database_subject',
+            'unique' => FALSE,
+          ),
+          7 => array(
+            'source' => 'Primary',
+            'target' => 'field_primary',
+            'unique' => FALSE,
+          ),
         ),
         'input_format' => 'plain_text',
         'author' => '1',
