@@ -69,8 +69,8 @@ function library_feeds_database_importer_feeds_importer_default() {
             'unique' => FALSE,
           ),
           6 => array(
-            'source' => 'Taxonomy: Terms for Department or Program',
-            'target' => 'field_database_subject',
+            'source' => 'Subjects',
+            'target' => 'field_subjects',
             'unique' => FALSE,
           ),
           7 => array(
